@@ -1,0 +1,15 @@
+.container-fluid {
+    border: 5px solid red;
+}
+
+.clearfix {
+    border: 5px solid blue;
+}
+
+img {
+    border: 5px solid green;
+}
+
+.col-md-4 {
+    border: 5px solid yellow;
+}
