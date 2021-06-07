@@ -51,6 +51,9 @@
 }
 
 #title {
-    font-size: 100px;
     padding: 50px;
+}
+
+.technology-padding {
+    padding: 10px;
 }
