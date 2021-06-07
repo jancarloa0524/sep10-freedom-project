@@ -5,7 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+HK&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
             /* CSS */
@@ -17,7 +20,7 @@
     <body>
         <!-- HTML -->
         <!-- NAV -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color:#383541">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark header" style="background-color:#383541">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">The Future Of Defence</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +29,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">The Technology</a>
+                  <a class="nav-link" href="#technology-section">The Technology</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">The Questions</a>
+                  <a class="nav-link" href="#question-section">The Questions</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">The Conclusion</a>
+                  <a class="nav-link" href="#conclusion-section">The Conclusion</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact-section">Contact</a>
                 </li>
                </ul>
 
@@ -59,56 +62,175 @@
 
         <!-- THE TECHNOLOGY -->
 
-        <div class="container-fluid">
+        <div id="technology-section" class="container-fluid technology-section">
             <div class="row d-flex justify-content-center">
                 <div class="col-fluid-4 d-flex justify-content-center">
-                    <h1> The Future of Defence</h1>
+                    <h1 id="title" class="header"> The Future of Defence</h1>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
+            <div id="tech-heading" class="row d-flex justify-content-center">
                 <div class="col-fluid-6 d-flex justify-content-center">
-                    <h3> What New Technologies Have Emerged?</h3>
+                    <h3 class="header"> What New Technologies Have Emerged?</h3>
                 </div>
             </div>
         </div>
-        
-        <div class="container-fluid">
+
+        <div class="container-fluid technology-section">
             <div class="row">
                 <div class="clearfix">
-                    <img class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" src="img/tardec.jpg">
+                    <img class="technology-img col-md-6 float-md-end mb-3 ms-md-3 img-fluid" src="img/tardec.jpg">
                     <div class="col-md-4 float-md-end mb-3 ms-md-3">
-                        <p>TARDEC’s (Tank Automotive Research Development and Engineering Center) autonomous trucks. As the name implies, these trucks can work on their own and deliver supplies safely, wherever it may need to be. These vehicles have many different functions and features that they can use while in the field, such as remote-operation. </p>
+                        <p class="fontsize regular-font">TARDEC’s (Tank Automotive Research Development and Engineering Center) autonomous trucks. As the name implies, these trucks can work on their own and deliver supplies safely, wherever it may need to be. These vehicles have many different functions and features that they can use while in the field, such as remote-operation. </p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="clearfix">
-                    <img class="col-md-6 float-md-start mb-3 ms-md-3 img-fluid" src="img/hugin.jpg">
+                    <img class="technology-img col-md-6 float-md-start mb-3 ms-md-3 img-fluid" src="img/hugin.jpg">
                     <div class="col-md-4 float-md-start mb-3 ms-md-3">
-                        <p>HUGIN, an AUV (autonomous underwater vehicle), mainly used by militaries for reconnaissance, surveillance, and intelligence. It has three different input modes that allow for different functions, such as being fully autonomous, partially autonomous, and supervised, meaning that it provides real-time data while on a mission. </p>
+                        <p class="fontsize regular-font">HUGIN, an AUV (Autonomous Underwater Vehicle), mainly used by militaries for reconnaissance, surveillance, and intelligence. It has three different input modes that allow for different functions, such as being fully autonomous, partially autonomous, and supervised, meaning that it provides real-time data while on a mission.</p>
                     </div>
                 </div>
             </div>
              <div class="row">
                 <div class="clearfix">
-                    <img class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" src="img/predator_drone.jpg">
+                    <img class="technology-img col-md-6 float-md-end mb-3 ms-md-3 img-fluid" src="img/predator_drone.jpg">
                     <div class="col-md-4 float-md-end mb-3 ms-md-3">
-                        <p>Predator Drone, a Remotely Piloted Aircraft System (RPAS), an offensive weapon used during the War on Terrorism, which was terrifyingly effective, to both enemies and civilians. While these weren’t fully autonomous, they can easily be made pretty close to being just that, and considering the civilian casualties it has caused, who knows the damage it could have caused if it really were automotive?</p>
+                        <p class="fontsize regular-font">Predator Drone, a Remotely Piloted Aircraft System (RPAS), an offensive weapon used during the War on Terrorism, which was terrifyingly effective, to both enemies and civilians. While these weren’t fully autonomous, they can easily be made pretty close to being just that, and considering the civilian casualties it has caused, who knows the damage it could have caused if it really were automotive?</p>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- THE THE QUESTIONS -->
 
+        <div id="question-section" class="container-fluid questions-section">
 
+             <div class="row d-flex justify-content-center">
+                <div class="col-fluid-6 d-flex justify-content-center">
+                    <h1 class="header">The Questions</h1>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header regular-font">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            The Real Question: Should We Keep Developing/Deploying These Technologies?
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p class="regular-font">In the end, any autonomous machine does not make decisions like a human can, it only executes decisions already made for them. However, just like humans, they aren’t perfect either. An offensive machine like a predator drone, even if made to only attack the enemy, can still harm civilians. This is a complex issue that can only be answered by breaking down the problem. It creates even more questions that we need to answer.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header regular-font">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What Technologies Should Exist, Based On Their Role?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p class="regular-font">There are generally three different roles a machine can play in the military, offensive, defensive, and support. Figuring out what specific technologies should and shouldn’t exist is the first step to figuring out whether they should exist at all.</p>
+
+                             <p class="regular-font">On the topic of offensive technologies, they shouldn’t exist at all. They are most capable of causing harm to civilian life, and shouldn’t be deployed against human enemies. It’s simply unethical to do so, because machines have no regard for the lives of those enemies they encounter. A regular, human soldier, is capable of making decisions that take responsibility for the enemy, which a machine simply cannot do. A machine being deployed into war is like using chemical weapons, it’s not something you can so easily stop, and it simply isn’t fair to use against humans.</p>
+
+                            <p class="regular-font">Now defensive technologies, as the name suggests, are meant for defense, they are meant to protect something from an incoming attack force. These should have the option to be fully automated when protecting the lives of other humans, but for the most part, should only be partially automated. </p>
+
+                            <p class="regular-font">Support Technologies cannot attack or defend, so they mainly include anything that can perform reconnaissance, intelligence gathering, and supply runs. Since they do not cause any direct harm, they should be fully autonomous. They do what their human counterparts already do, but even better. While the information they can collect can cause harm, so can the humans, and the information that they can collect. In the end, the information they collect, should only be interpreted and used by humans.
+                                </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header regular-font">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Is It Okay For These Technologies To Further Replace Humans, In A Time Where Humans Are Being Replaced By Technology?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p class="regular-font">This is a really difficult question to answer, the employment of certain technologies can eliminate the loss of human life by a significant amount, but it can also completely remove the people who still want to serve and make a difference. In the end, these technologies should be used scarcely, only when absolutely necessary. In terms of the specifics, automated defenses should be used only when absolutely necessary, while support roles can be used quite often, since most of the time, it is definitely necessary. </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- THE CONCLUSION -->
 
+        <div id="conclusion-section" class="container-fluid conclusion-section">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center conclusion-text">
+                    <h1 class="header">Conclusion</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center conclusion-text">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <p class="regular-font">Yes, these technologies should be used, but only in the specific ways mentioned above. They should be constantly monitored, and even partially controlled at times. That way, the loss of human life is reduced greatly, while also allowing for humans to still serve important roles in the military.</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center conclusion-text">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <h3 class="header">Ideas:</h3>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center conclusion-text">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <p class="regular-font">Of course, it's easy to say that these technologies should and shouldn’t exist, but what technology would I create? What technology would I put into the field, or sell to militaries all over the world?</p>
+                </div>
+            </div>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/drone.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title header">Supply Drop Drone</h5>
+                            <p class="regular-font card-text">Soldiers can be equipped with tracking devices that they can use to ask for supplies, whether it be ammunition or medical, which would basically call a drone over to give them those supplies.</p>
+                          </div>
+                        </div>
+                    </div>
 
+                     <div class="col-md-6 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/sentry.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title header">Non-Lethal-Turret</h5>
+                            <p class="regular-font card-text">A turret that can fire any non-lethal weaponry, such as pepper spray, at enemies to make them get away instead of causing casualties. It could use some really high pressure water too, for example. This option essentially serves as a warning.</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- CONTACT -->
 
-
+        <div id="contact-section" class="container-fluid contact-section">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 d-flex justify-content-center">
+                    <h1 class="header">Contact</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3">
+                    <h3 class="header">E-Mails:</h3>
+                    <p class="regular-font">Personal: ajancarlo27@gmail.com</p>
+                    <p class="regular-font">School: jancarloa0524@hstat.org</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="header">Phone:</h3>
+                    <p class="regular-font">347-779-3255</p>
+                </div>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>

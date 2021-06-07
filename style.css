@@ -1,15 +1,56 @@
-.container-fluid {
-    border: 5px solid red;
+.technology-section {
+    background-color: #D8D4D4;
+    color: #211F1F;
+    padding: 20px;
 }
 
-.clearfix {
-    border: 5px solid blue;
+.questions-section {
+    background-color: #383541;
+    color: #D8D4D4;
+    padding: 20px;
 }
 
-img {
-    border: 5px solid green;
+.accordion-item {
+    background-color: #211F1F;
 }
 
-.col-md-4 {
-    border: 5px solid yellow;
+.conclusion-section {
+    background-color: #211F1F;
+    padding: 20px;
+}
+
+.conclusion-text {
+    color: #D8D4D4;
+}
+
+.contact-section {
+    background-color: #A09B9C;
+    color: #211F1F;
+    padding: 20px;
+}
+
+.header {
+    font-family: Anton;
+}
+
+.regular-font {
+    font-family: Noto Sans HK;
+}
+
+.technology-img {
+    width: 600px;
+    border: 2px solid #383541;
+}
+
+.fontsize {
+    font-size: 20px;
+}
+
+#tech-heading {
+    padding-top: 50px;
+}
+
+#title {
+    font-size: 100px;
+    padding: 50px;
 }
